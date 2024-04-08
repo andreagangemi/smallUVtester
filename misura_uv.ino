@@ -85,7 +85,7 @@ void setupDisplay(void)
   display.display();
 #endif
 
-  delay(2000);
+  delay(LOOP_DELAY);
 }
 
 float interpolate_uvi(float value, float max, float min)
